@@ -104,7 +104,7 @@ body {
 	font-size: calc(var(--index) / 1.175);
 	letter-spacing: calc(var(--index) / 3.5);
 	margin-top: calc(var(--index) * -.75);
-	;
+	
 
 }
 
@@ -129,7 +129,7 @@ body {
 	letter-spacing: calc(var(--index) / 7.5);
 	transform: var(--main-article-transform);
 	transition: var(--transition);
-
+	will-change: transform;
 }
 
 .main-article__paragraph {
